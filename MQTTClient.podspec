@@ -16,6 +16,7 @@ Pod::Spec.new do |mqttc|
 	mqttc.ios.deployment_target = "6.1"
 	mqttc.osx.deployment_target = "10.10"
 	mqttc.tvos.deployment_target = "9.0"
+	mqttc.visionos.deployment_target = "1.0"
 	mqttc.default_subspec = 'Core'
 
 	mqttc.subspec 'Core' do |core|
