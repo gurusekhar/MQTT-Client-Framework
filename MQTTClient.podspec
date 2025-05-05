@@ -1,6 +1,6 @@
 Pod::Spec.new do |mqttc|
-	mqttc.name         = "MQTTClientV2"
-	mqttc.version      = "1.0.2"
+	mqttc.name         = "MQTTClient"
+	mqttc.version      = "1.0.0"
 	mqttc.summary      = "iOS, macOS and tvOS native ObjectiveC MQTT Client Framework"
 	mqttc.homepage     = "https://github.com/gurusekhar/MQTT-Client-Framework"
 	mqttc.license      = { :type => "EPLv1", :file => "LICENSE" }
