@@ -22,6 +22,7 @@ let package = Package(
             name: "MQTTClient",
             path: "Sources/MQTTClient",
             sources: [
+                "MQTTClient.h",
                 "MQTTCFSocketDecoder.m",
                 "MQTTCFSocketEncoder.m",
                 "MQTTCFSocketTransport.m",
