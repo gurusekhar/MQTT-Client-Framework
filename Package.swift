@@ -12,17 +12,16 @@ let package = Package(
     products: [
         .library(
             name: "MQTTClient",
-            targets: ["Core"]
+            targets: ["MQTTClient"]
         )
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "Core",
+            name: "MQTTClient",
             path: "Sources/MQTTClient",
             sources: [
-                "MQTTClient.h",
                 "MQTTCFSocketDecoder.m",
                 "MQTTCFSocketEncoder.m",
                 "MQTTCFSocketTransport.m",
