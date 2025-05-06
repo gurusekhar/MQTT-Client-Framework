@@ -38,7 +38,6 @@ let package = Package(
                 "MQTTProperties.m",
                 "MQTTSession.m",
                 "MQTTSessionLegacy.m",
-                "MQTTSessionSynchron.m",
                 "MQTTTransport.m",
                 "GCDTimer.m",
                 "MQTTSessionManager.m",
