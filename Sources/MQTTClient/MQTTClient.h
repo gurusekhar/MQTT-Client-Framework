@@ -25,9 +25,10 @@
 #import <MQTTCoreDataPersistence.h>
 #import <MQTTSSLSecurityPolicyTransport.h>
 #import <MQTTLog.h>
+#import <MQTTSessionManager.h>
 
 #if __has_include(<MQTTClient/MQTTSessionManager.h>)
-#import <MQTTSessionManager.h>
+
 #endif
 
 #if __has_include(<MQTTClient/MQTTWebsocketTransport.h>)
