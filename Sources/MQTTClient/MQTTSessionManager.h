@@ -23,7 +23,7 @@
 /**
  Enumeration of MQTTSessionManagerState values
  */
-public typedef NS_ENUM(int, MQTTSessionManagerState) {
+@public typedef NS_ENUM(int, MQTTSessionManagerState) {
     MQTTSessionManagerStateStarting,
     MQTTSessionManagerStateConnecting,
     MQTTSessionManagerStateError,
