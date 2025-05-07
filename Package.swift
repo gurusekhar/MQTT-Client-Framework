@@ -66,7 +66,9 @@ let package = Package(
                 "ReconnectTimer.h",
                 "ReconnectTimer.m",
                 "ForegroundReconnection.h",
-                "ForegroundReconnection.m"
+                "ForegroundReconnection.m",
+                "MQTTSessionManagerState.h",
+                "MQTTSessionManagerState.m"
             ],
             publicHeadersPath: "."
         )
